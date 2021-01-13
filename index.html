@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cover1">
+        <div class="volume">
+
+        </div>
+
+    </div>
+
+    <div class="cover">
+        <div class="two-dots1">
+
+        </div>
+        <div class="two-dots">
+
+        </div>
+        <div class="dot">
+
+        </div>
+
+        <div class="line">
+
+
+        </div>
+
+
+        <h1> samsung</h1>
+
+
+
+        <div class="screen">
+
+        </div>
+        <div class="home">
+
+
+        </div>
+        <div class="home2">
+
+        </div>
+
+        <div class="button">
+
+        </div>
+        <div class="back">
+
+
+        </div>
+        <div class="back2">
+            <p>
+                < </p>
+        </div>
+    </div>
+
+
+
+
+    <style>
+        .cover1 {
+            box-shadow: #333;
+            position: fixed;
+            border: 2px solid#333;
+            height: 90%;
+            width: 23%;
+            left: 35.6%;
+            top: 5%;
+            border-radius: 40px;
+            display: block;
+            background-color: #f4f4f4f4;
+
+        }
+
+        .volume {
+            border: 3px solid rgb(255, 255, 255);
+            position: absolute;
+            top: 30%;
+            left: -1%;
+            background-color: rgb(231, 230, 230);
+            height: 80px;
+            float: center;
+            opacity: 1;
+            width: 1px;
+            border-radius: 5px;
+
+        }
+
+        .line {
+            border: 3px solid #333;
+            position: absolute;
+            top: 3%;
+            left: 40%;
+            width: 50px;
+            float: center;
+            opacity: 0.7;
+            border-radius: 5px;
+        }
+
+        .two-dots1 {
+            border: 3px solid #333;
+            position: absolute;
+            top: 2%;
+            left: 62%;
+            width: 1px;
+            float: center;
+            opacity: 0.8;
+            border-radius: 100%;
+        }
+
+        .two-dots {
+            border: 3px solid #333;
+            position: absolute;
+            top: 4%;
+            left: 62%;
+            width: 1px;
+            float: center;
+            opacity: 0.8;
+            border-radius: 100%;
+        }
+
+        .dot {
+            border: 3px solid #333;
+            position: absolute;
+            background-color: #333;
+            top: 2.5%;
+            left: 70%;
+            width: 5px;
+            height: 5px;
+            float: center;
+            opacity: 0.8;
+            border-radius: 100%;
+        }
+
+        .cover {
+            box-shadow: #333;
+            position: fixed;
+            border: 2px solid#333;
+            height: 90%;
+            width: 23%;
+            left: 36%;
+            top: 5%;
+            border-radius: 40px;
+            display: block;
+            background-color: #f4f4f4f4;
+
+        }
+
+        .cover h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin-right: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            font-weight: italic;
+            margin-top: 50px;
+            opacity: 0.7;
+        }
+
+        .screen {
+            position: absolute;
+            border: 2px solid#333;
+            height: 73%;
+            width: 80%;
+            left: 10%;
+            top: 15%;
+            border-radius: 5px;
+            background-color: #333;
+            -webkit-animation-name: screen;
+            -webkit-animation-duration: 10s;
+            animation-name: screen;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes screen {
+
+            0% {
+                background-color: #333;
+            }
+
+            25% {
+                background-color: rgb(121, 120, 120);
+            }
+
+            50% {
+                background-color: rgb(202, 199, 199);
+            }
+
+            75% {
+                background-color: rgb(255, 255, 255);
+            }
+
+
+        }
+
+        .screen:hover {
+            background-color: rgb(252, 250, 250);
+            border-radius: 0px;
+        }
+
+        .button {
+
+            position: absolute;
+            border: 3px solid#333;
+            height: 3%;
+            width: 20%;
+            left: 38%;
+            top: 92%;
+            border-radius: 10px;
+            background-color: #f4f4f4f4;
+
+        }
+
+        .button:hover {
+            background-color: rgb(121, 120, 120);
+        }
+
+        .home {
+
+
+            position: absolute;
+            border: 2px solid#333;
+            height: 1%;
+            width: 5%;
+            left: 15%;
+            top: 92.5%;
+            background-color: aliceblue;
+
+        }
+
+        .home2 {
+
+
+            position: absolute;
+            border-right: 2px solid#333;
+            border-top: 2px solid#333;
+
+            height: 1.5%;
+            width: 5.5%;
+            left: 16.5%;
+            top: 92%;
+
+        }
+
+        .back {
+
+
+            position: absolute;
+            border-right: 2px solid#333;
+            border-top: 2px solid#333;
+            border-bottom: 0.5px solid#333;
+            content: '<';
+            height: 1%;
+            width: 5%;
+            left: 75%;
+            top: 92.9%;
+            border-radius: 8px;
+
+        }
+
+        .back2 {
+
+
+
+            position: absolute;
+            content: '<';
+            height: 1.5%;
+            width: 5%;
+            left: 75%;
+            top: 89.9%;
+            border-radius: 100%;
+            font-size: 16px;
+            font-weight: bold;
+            opacity: 0.7;
+        }
+
+        body {
+            background-color: #cccc;
+        }
+
+
+        @media only screen and (max-width: 320px) {
+            .cover {
+                width: 100%;
+
+            }
+
+            .button {
+                margin-left: 0px;
+            }
+        }
+    </style>
+</body>
+
+</html>
